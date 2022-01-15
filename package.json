@@ -1,0 +1,25 @@
+{
+  "name": "lemonsqueeze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcarlosdev/lemonsqueeze.git"
+  },
+  "author": "Carlos Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrcarlosdev/lemonsqueeze/issues"
+  },
+  "homepage": "https://github.com/mrcarlosdev/lemonsqueeze#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "open": "^8.4.0",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^4.2.0"
+  }
+}
