@@ -9,3 +9,18 @@ Run the project:
 `npm index.js`
 
 Go to [http://localhost:3000](http://localhost:3000)
+
+## Set Database
+
+Create required tables:
+
+```
+CREATE TABLE questions (
+    questionId INTEGER PRIMARY KEY AUTOINCREMENT,
+    surveyPageId INTEGER,
+    questionText TEXT,
+    questionType VARCHAR(50),
+    options TEXT,
+    availablePoints INTEGER
+);
+```
